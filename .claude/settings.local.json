@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(cd:*)",
+      "Bash(netstat:*)",
+      "Bash(taskkill:*)",
+      "Bash(cmd /c \"taskkill /PID 40412 /F\" 2>&1)",
+      "Bash(cmd /c \"netstat -ano | findstr :5173\" 2>&1)",
+      "Bash(cmd /c \"netstat -ano | findstr \\\\\":517\\\\\"\" 2>&1)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
